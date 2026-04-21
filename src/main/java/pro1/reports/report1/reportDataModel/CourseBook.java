@@ -6,9 +6,9 @@ public class CourseBook
     public String author;
     public String courseCode;
 
-    public CourseBook(String title, String author, String courseCode) {
-        this.title = title;
-        this.author = author;
+    public CourseBook(String courseCode, String author, String title) {
         this.courseCode = courseCode;
+        this.author = author;
+        this.title = title;
     }
 }

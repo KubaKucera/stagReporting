@@ -4,8 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class ActionsList {
-
-    @SerializedName("rozvrhovaAkce")
-    public List<Action> items;
+public class ExamsList {
+    @SerializedName("termin")
+    public List<Exam> items;
 }

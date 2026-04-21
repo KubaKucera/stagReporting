@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class TeacherCourse
 {
-    public String code;
-    public String title;
+    @SerializedName("zkratka")
+    public String zkratka;
+
+    @SerializedName("nazev")
+    public String nazev;
 }

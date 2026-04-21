@@ -4,10 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class Book
 {
-    @SerializedName("priorita")
-    public String priority;
     @SerializedName("nazev")
-    public String title;
+    public String nazev;
+
     @SerializedName("autor")
-    public String author;
+    public String autor;
 }
